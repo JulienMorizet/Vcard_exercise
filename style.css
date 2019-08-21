@@ -1,13 +1,22 @@
 body {
-    background-color:  #A8ABFF ;
+    background-color:   #8E91FF;
 }
 
 .container1 {
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    padding-top: 9.375em;
+    padding-top: 8em;
+    padding-bottom: 4em;
 }
+
+.clouds {
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
 
 .box1 {
 
@@ -16,7 +25,7 @@ flex-direction: column;
 justify-content: center;
 width: 34.375em;
 height: 18.750em;
-background:  #8E91FF;
+background:   forestgreen;
 color: whitesmoke;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 1em;
@@ -25,7 +34,14 @@ text-align: center;
 border: 1.5em;
 border-radius: 2em;
 border-style:ridge;
+border-color: #B35E21;
+
 
 }
+
+.box1:hover {
+     transform: scale(1.2); 
+  }
+
 
 
