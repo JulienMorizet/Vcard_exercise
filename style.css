@@ -1,22 +1,31 @@
 body {
-    background-color: #ff7400;
+    background-color:  #A8ABFF ;
 }
 
 .container1 {
     display: flex; 
+    flex-direction: row;
     justify-content: center;
     padding-top: 9.375em;
 }
 
 .box1 {
 
-display: inline-block;
+display: flex;
+flex-direction: column;
+justify-content: center;
 width: 34.375em;
 height: 18.750em;
-background:  #c9de96;
-color: black;
+background:  #8E91FF;
+color: whitesmoke;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 1em;
 font-style: italic;
 text-align: center;
+border: 1.5em;
+border-radius: 2em;
+border-style:ridge;
+
 }
+
+
